@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MlDomain xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>another!!</description>
+    <label>Another Intent Set</label>
+    <mlIntents>
+        <developerName>intentions_begin</developerName>
+        <label>intentions begin</label>
+        <mlIntentUtterances>
+            <language>en_US</language>
+            <utterance>Hullaballoo</utterance>
+        </mlIntentUtterances>
+    </mlIntents>
+    <mlSlotClasses>
+        <dataType>Text</dataType>
+        <developerName>another_entity</developerName>
+        <extractionType>Value</extractionType>
+        <label>another entity</label>
+    </mlSlotClasses>
+</MlDomain>
